@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <h1>Application Form</h1>
+    <p>
+      Note:<strong
+        >Form is to be completed at least 21 days prior to date</strong
+      >
+    </p>
+    <form
+      action="mailto:antonfrancisjeejo@gmail.com"
+      method="POST"
+      ;
+      enctype="text/plain"
+    >
+      <fieldset>
+        <legend>Personal Details</legend>
+        <div>
+          <label>Name:</label>
+          <input name="name" placeholder="Raj Kumar.S" />
+        </div>
+        <br />
+        <div>
+          <label>Address:</label>
+          <input
+            name="address"
+            placeholder="XYZ - 10, Surthungaz Road, Guindy, Chennai."
+          />
+        </div>
+        <br />
+        <div>
+          <label>Password:</label>
+          <input
+            type="password"
+            name="password"
+            placeholder="Enter your password"
+          />
+        </div>
+        <br />
+        <div>
+          <label>DOB:</label>
+          <input type="date" name="dob" placeholder="Enter your dob" />
+        </div>
+        <br />
+        <div>
+          <label>Email:</label>
+          <input type="email" name="email" placeholder="Enter your email" />
+        </div>
+        <br />
+        <div>
+          <label>Phone no:</label>
+          <input type="number" name="phone" placeholder="Enter your phone no" />
+        </div>
+        <br />
+        <div>
+          <label>IQ:</label>
+          <input type="number" name="iq" placeholder="Enter your IQ Level" />
+        </div>
+        <br />
+        <div>
+          <label>Gender:</label>
+          <div>
+            <input type="radio" name="gender" value="male" />Male<br />
+            <input type="radio" name="gender" value="female" />Female<br />
+            <input type="radio" name="gender" value="other" />Other<br />
+          </div>
+        </div>
+      </fieldset>
+      <fieldset>
+        <legend>Technologies Known:</legend>
+        <div>
+          <input type="checkbox" value="html" name="tech" />HTML<br />
+          <input type="checkbox" value="css" name="tech" />CSS<br />
+          <input type="checkbox" value="js" name="tech" />Javascript<br />
+          <input type="checkbox" value="bootstrap" name="tech" />Bootstrap<br />
+          <input type="checkbox" value="react" name="tech" />React<br />
+        </div>
+      </fieldset>
+      <br />
+      <button type="submit" style="padding: 15px">Send your Application</button>
+    </form>
+  </body>
+</html>
